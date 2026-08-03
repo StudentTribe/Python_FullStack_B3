@@ -1,0 +1,23 @@
+#Lists - Mutable
+
+bag = ["milk" , "bread" , "eggs" , "sugar" , "curd"]
+print(bag)
+print("======================================")
+bag.append("chips")
+print(bag)
+print("======================================")
+bag.remove("eggs")
+print(bag)
+print("======================================")
+bag.insert(2,"cold drinks")
+print(bag)
+print("======================================")
+print(bag.index("sugar"))
+print("======================================")
+bag.pop(3)
+print(bag)
+print("======================================")
+print(len(bag))
+print("======================================")
+print("eggs" in bag)
+print("bread" in bag)
